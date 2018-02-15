@@ -5,9 +5,9 @@
  ## 使用言語
  python3.x
  
- ##Usage:
+ ## Usage:
  
- ###plot_decision_regions(X,y,classifier=False,x_label='X',y_label='Y',title=' ',resolution=0.02,size=(8,8))
+ ### plot_decision_regions(X,y,classifier=False,x_label='X',y_label='Y',title=' ',resolution=0.02,size=(8,8))
 <br>決定境界をプロット</br>
  <br>引数：</br>
 <br> 　X  二次元配列：X[:,0]がX座標  X[:,1]がY座標</br>
@@ -20,7 +20,7 @@
 <br> 　size  : グラフのサイズ変更(デフォルトは(8,8))</br>
 <br></br>
 
-###plot_scatter(x,y,title=None,x_label='X',y_label='Y',size=(8,8))
+### plot_scatter(x,y,title=None,x_label='X',y_label='Y',size=(8,8))
 <br>この関数は散布図を描いてくれる
 
 <br>引数：</br>
