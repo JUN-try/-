@@ -7,21 +7,6 @@ import matplotlib.pyplot as plt
 def plot_decision_regions(X,y,classifier=False,x_label='X',y_label='Y',title=' ',resolution=0.02,size=(8,8)):
 	
     
-
-
-    """
-    決定境界をプロット
-
-    引数：
-    　X_value 二次元配列：X_value[:,0]がX座標
-                       X_value[:,1]がY座標
-      y_value 一次元配列：教師ありのデータ
-      classifier,test_idx　 ：学習したモデル
-      x_label：X座標のラベル
-      y_label：y座標のラベル
-      size  : グラフのサイズ変更(デフォルトは(8,8))
-    """
-    
     #サイズ
     fig,axes=plt.subplots(figsize=size)
 
@@ -72,17 +57,8 @@ def plot_decision_regions(X,y,classifier=False,x_label='X',y_label='Y',title=' '
     
 def plot_scatter(x,y,title=None,x_label='X',y_label='Y',size=(8,8)):
     
-    """
-    この関数は散布図を描いてくれる
-    
-    引数：
-      X       ：Xリスト
-      y　　    ：yリスト
-      title   ：タイトル
-      x_label ：X座標のラベル
-      y_label ：y座標のラベル
-      size    ：グラフのサイズ変更(デフォルトは(8,8))
-    """
+
+
     fig,axes=plt.subplots(figsize=size)
     
     plt.scatter(x,y)
