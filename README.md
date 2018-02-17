@@ -30,6 +30,13 @@ pythonのmatplotlibを使って色々なグラフが描ける。しかし、ゼ�
 <br>x_label ：X座標のラベル</br>
 <br>y_label ：y座標のラベル</br>
 <br>size    ：グラフのサイズ変更(デフォルトは(8,8))</br>
+
+### 実行した環境
+<br>mac os</br>
+<br>python 3.6.2</br>
+<br>numpy 1.13.1</br>
+<br>pandas 0.20.3</br>
+<br>matplotlib 2.0.2</br>
 """
  ## 参考文献：
  <br>Python機械学習プログラミング</br>
