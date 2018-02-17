@@ -37,7 +37,7 @@ pythonのmatplotlibを使って色々なグラフが描ける。しかし、ゼ�
 <br>numpy 1.13.1</br>
 <br>pandas 0.20.3</br>
 <br>matplotlib 2.0.2</br>
-"""
+
  ## 参考文献：
  <br>Python機械学習プログラミング</br>
 <br>達人データサイエンティストによる理論と実践</br>
